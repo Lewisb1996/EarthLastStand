@@ -11,7 +11,7 @@ sf::Sprite enemy;
 
 
 void Load() {
-  if (!spritesheet.loadFromFile("")) {
+  if (!spritesheet.loadFromFile("res/earthlaststand_sheet.png")) {
     cerr << "Failed to load spritesheet!" << std::endl;
    }
    enemy.setTexture(spritesheet);

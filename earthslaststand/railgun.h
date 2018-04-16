@@ -7,7 +7,7 @@ protected:
   
   RailGun();
 public:
-  explict RailGun(sf::IntRect ir);
+  explicit RailGun(sf::IntRect ir);
   virtual ~RailGun() = 0;
   virtual void Update(const float &dt);
 };

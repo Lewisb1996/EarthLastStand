@@ -2,7 +2,7 @@
 using namespace sf;
 using namespace std;
 
-RailGUn::RailGun() {};
+RailGun::RailGun() {};
 
 RailGun::RailGun(IntRect ir) : Sprite() {
    _sprite = ir;
@@ -12,5 +12,5 @@ RailGun::RailGun(IntRect ir) : Sprite() {
 
 void RailGun::Update(const float &dt) {}
 
-RailGun::#RailGun() = default;
+RailGun::~RailGun() = default;
 
